@@ -26,6 +26,10 @@ public class Employee {
         this.position = position;
     }
 
+    public Employee(String eName) {
+        this.eName = eName;
+    }
+
     public Employee() {
     }
 
@@ -35,5 +39,9 @@ public class Employee {
 //    }
     public void display(String eName, String position){
         System.out.println(eName+" "+position);
+    }
+    public Boolean display(String eName){
+        System.out.println(eName+" "+position);
+        return true;
     }
 }
