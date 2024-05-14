@@ -12,6 +12,7 @@ public class Driver{
 //        student.display();
         System.out.println(student.compareTo(student1));
                 //student.showRollNo();
+    System.out.println(student.compareTo(student1));
     }
 
 
