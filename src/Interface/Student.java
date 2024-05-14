@@ -1,8 +1,10 @@
 package Interface;
 
+
 import java.io.Serializable;
 
 public class Student implements Trial , Serializable ,Comparable<Student>{
+
 
     private int rollNo;
     private String name;
