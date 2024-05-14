@@ -1,6 +1,8 @@
 package Interface;
 
-public class Student implements Trial {
+import java.io.Serializable;
+
+public class Student implements Trial , Serializable ,Comparable<Student>{
 
     private int rollNo;
     private String name;
@@ -37,5 +39,13 @@ public class Student implements Trial {
     @Override
     public int showRollNo() {
         return rollNo;
+    }
+
+    @Override
+    public int compareTo(Student st) {
+        if(rollNo==st.rollNo){
+            return 1;
+        }
+        return 0;
     }
 }
