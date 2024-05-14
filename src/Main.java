@@ -12,12 +12,18 @@ public class Main {
 //employee.display("hello");
 //        System.out.println(employee.display("hello"));
 
-        Shapes shapes=new Shapes();
-        shapes.area(10,12);
-        shapes.area(10);
-        shapes.area(4.5);
-        shapes.area(100);
+//        Shapes shapes=new Shapes();
+//        shapes.area(10,12);
+//        shapes.area(10);
+//        shapes.area(4.5);
+//        shapes.area(100);
+//    final int n;
+//    n=5;
+//
+//
 
-
+//    final public int show(){
+//        return 0;
+//    }
     }
 }
