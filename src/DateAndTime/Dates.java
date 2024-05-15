@@ -2,6 +2,7 @@ package DateAndTime;
 
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Dates {
@@ -13,11 +14,10 @@ public class Dates {
         LocalDate localDate2=LocalDate.of(1999,04,13);
         System.out.println(localDate2);
         String s="2000-12-12";
-//        Date date=new SimpleDateFormat("yyyy-mm-dd").parse(s);
-//        DateTimeFormatter formatObj = DateTimeFormatter.ofPattern(s);
-//        System.out.println(formatObj);
+        DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd-MM-yyyy");
         LocalDate localDate3=LocalDate.parse(s);
-        System.out.println(localDate3);
+        String s1=localDate3.format(dateTimeFormatter);
+        System.out.println(s1);
         LocalDate yesterday = localDate.minusDays(1);
         LocalDate tommorow=localDate.plusDays(1);
         System.out.println(yesterday+" "+tommorow);
