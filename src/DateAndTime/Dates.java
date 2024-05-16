@@ -23,21 +23,27 @@ public class Dates {
         System.out.println(yesterday+" "+tommorow);
 
 //2004/4    2100/40
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        if(n%100==0){
-            if(n%400==0) {
-                System.out.println(n + " Year is a Leap year");
-            }
-            System.out.println("Not a leap year");
-        }
-        else if(n%4==0){
-            System.out.println(n+" Year is a Leap year");
-        }
-        else
-        {
-            System.out.println(n+" year is not a Leap year");
-        }
+//        Scanner sc=new Scanner(System.in);
+//        int n=sc.nextInt();
+//        if(n%100==0){
+//            if(n%400==0) {
+//                System.out.println(n + " Year is a Leap year");
+//            }
+//            System.out.println("Not a leap year");
+//        }
+//        else if(n%4==0){
+//            System.out.println(n+" Year is a Leap year");
+//        }
+//        else
+//        {
+//            System.out.println(n+" year is not a Leap year");
+//        }
+
+        String string="1995-05-17";
+        LocalDate localDate4=LocalDate.parse(string);
+        String string1=localDate4.format(dateTimeFormatter);
+        System.out.println(string1);
+
 
     }
 
