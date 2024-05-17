@@ -29,12 +29,38 @@ public class Maps {
         map1.put(5,"hi");
     List<Employee> list=new ArrayList<>();
        Map<String,List<Employee>> map2=new HashMap<>();
-       Employee employee=new Employee(1,"jghjg","fghf");
-       Employee employee1=new Employee(2,"fghgf","tuytuy");
+       Employee employee=
+               new Employee(1,"jghjg","fghf");
+       Employee employee1=
+               new Employee(2,"fghgf","tuytuy");
        list.add(employee);
        list.add(employee1);
        map2.put("Tech",list);
         System.out.println(map2);
+        Iterator itr= list.iterator();
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
+        Stack<List<Employee>> stack=new Stack<>();
+        stack.push(list);
+        System.out.println(stack);
+
+        stack.add(list);
+        System.out.println(stack);
+//        stack.pop();
+//     System.out.println(stack);
+     stack.remove(list);
+        System.out.println(stack);
+//        ArrayList<> arrayList=new ArrayList<>();
+//        List<> list1=new ArrayList<>();
+
+Stack<Map<String,List<Employee>>> stack1=new Stack<>();
+stack1.add(map2);
+        System.out.println(stack1);
+
+
+
     }
 
 }
