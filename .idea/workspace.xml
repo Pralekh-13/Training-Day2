@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cfc7d68-3ac2-4e97-9173-85be01587dfc" name="Changes" comment="dateFormatter changed">
-      <change afterPath="$PROJECT_DIR$/src/Maps/Maps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/ArraList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/ArraList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Maps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715838478562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dateFormatter changed">
+      <option name="closed" value="true" />
+      <created>1715922805429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715922805436</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
