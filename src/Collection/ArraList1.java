@@ -35,8 +35,9 @@ public class ArraList1 {
 //        set.add(employee2);
 //        System.out.println("set "+ set);
         //Set<Integer>set1 =new HashSet<>();
-
-
+Scanner sc=new Scanner(System.in);
+        Employee employee=new Employee(sc.nextInt(),sc.nextLine(),sc.next());
+        System.out.println(employee.toString());
 
 
 
