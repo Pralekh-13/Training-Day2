@@ -42,6 +42,7 @@ public class Maps {
             System.out.println(itr.next());
         }
 
+
         Stack<List<Employee>> stack=new Stack<>();
         stack.push(list);
         System.out.println(stack);
