@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cfc7d68-3ac2-4e97-9173-85be01587dfc" name="Changes" comment="dateFormatter changed">
-      <change afterPath="$PROJECT_DIR$/src/OverviewMOnday/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OverviewMOnday/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverviewMOnday/Collectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverviewMOnday/PersonAgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverviewMOnday/dATEaNDtIME.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Maps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArraList1.executor": "Run",
+    "Application.Collections.executor": "Run",
+    "Application.Collectors.executor": "Run",
     "Application.Dates.executor": "Run",
     "Application.Driver.executor": "Run",
     "Application.Lambda.executor": "Run",
@@ -67,6 +71,7 @@
     "Application.Main1.executor": "Run",
     "Application.Maps.executor": "Run",
     "Application.TwoDimensionalArray.executor": "Run",
+    "Application.dATEaNDtIME.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pralekh-day9",
     "kotlin-language-version-configured": "true",
@@ -170,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715924703930</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dateFormatter changed">
+      <option name="closed" value="true" />
+      <created>1716182367478</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716182367478</updated>
+    </task>
+    <task id="LOCAL-00013" summary="dateFormatter changed">
+      <option name="closed" value="true" />
+      <created>1716184238713</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716184238713</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
