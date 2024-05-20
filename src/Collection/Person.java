@@ -1,4 +1,4 @@
-package OverviewMOnday;
+package Collection;
 
 public class Person {
     private String name;

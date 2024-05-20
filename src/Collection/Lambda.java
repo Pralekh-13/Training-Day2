@@ -1,4 +1,4 @@
-package OverviewMOnday;
+package Collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -31,6 +31,9 @@ public class Lambda {
                 .collect(Collectors.toList());
 
         ages.forEach(System.out::println);
+//        for(int i=0;i<5;i++){
+//            System.out.println(i);
+//        }
 
         int totalAge = people.stream()
                 .map(person -> person.getAge())
