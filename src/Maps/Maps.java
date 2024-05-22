@@ -47,7 +47,9 @@ public class Maps {
         stack.push(list);
         System.out.println(stack);
 
-        stack.add(list);
+
+
+
         System.out.println(stack);
 //        stack.pop();
 //     System.out.println(stack);
