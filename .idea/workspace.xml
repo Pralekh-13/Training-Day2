@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cfc7d68-3ac2-4e97-9173-85be01587dfc" name="Changes" comment="Overview of Wednesday,thursday,friday">
-      <change afterPath="$PROJECT_DIR$/src/Collection/AREACALCILATOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/LAMBDA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OverallOverview/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maps/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Maps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,26 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArraList1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Collectors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Driver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MAIN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDimensionalArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dATEaNDtIME.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;pralekh-day9&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Training-Day2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ArraList1.executor": "Run",
+    "Application.Collections.executor": "Run",
+    "Application.Collectors.executor": "Run",
+    "Application.Dates.executor": "Run",
+    "Application.Driver.executor": "Run",
+    "Application.Lambda.executor": "Run",
+    "Application.MAIN.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
+    "Application.Maps.executor": "Run",
+    "Application.TwoDimensionalArray.executor": "Run",
+    "Application.dATEaNDtIME.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "pralekh-day9",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/Training-Day2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -198,13 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716189362584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Overview of Wednesday,thursday,friday">
+      <option name="closed" value="true" />
+      <created>1716373106770</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716373106770</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="dateFormatter changed" />
     <MESSAGE value="Overview of Wednesday,thursday,frida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Overview of Wednesday,thursday,frida" />
+    <MESSAGE value="Overview of Wednesday,thursday,friday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overview of Wednesday,thursday,friday" />
   </component>
 </project>
