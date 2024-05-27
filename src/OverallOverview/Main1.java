@@ -50,5 +50,9 @@ public class Main1 {
 //           k maximum and minimum and k < length
 //            k=4
 //            max=5,min=6
+
+
+
+
          }
 }
